@@ -1,0 +1,9 @@
+Building WampumCoin
+
+See doc/readme-qt.rst for instructions on building wampumcoin-qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of WampumCoin.
+
+See doc/build-*.txt for instructions on building wampumcoin,
+the intended-for-services, no-graphical-interface, reference
+implementation of WampumCoin.
