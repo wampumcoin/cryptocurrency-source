@@ -21,9 +21,7 @@ Blocks  375,001-384,400:  10,000
 
 After Block  384,400 it will make 3500 more Blocks at 3,500 Coins each until 33,356,250,000 is reached
 
-
 Default RPC PORT 35885
-
 Default P2P PORT 35883
 
 %AppData%\WampumCoin\wampumcoin.conf
