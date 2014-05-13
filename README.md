@@ -1,4 +1,4 @@
-WampumCoin
+WampumCoin version 1.1
 
 Scrypt Proof of Work
 
@@ -6,19 +6,20 @@ Scrypt Proof of Work
 
 10 Block Difficulty Retargets
 
-33 Billion Max Coins
+33,356,250,000 Maximum Coins
 
 Coin Distribution Breakdown:
 
-	int64 nSubsidy = 3500 * COIN;
-    if(nHeight < 11){nSubsidy = 50000000 * COIN;}
-	else if(nHeight < 100000){nSubsidy = 150000 * COIN;}
-	else if(nHeight < 200000){nSubsidy = 100000 * COIN;}
-	else if(nHeight < 250000){nSubsidy = 75000 * COIN;}
-	else if(nHeight < 300000){nSubsidy = 50000 * COIN;}
-	else if(nHeight < 350000){nSubsidy = 30000 * COIN;}
-	else if(nHeight < 375000){nSubsidy = 20000 * COIN;}
-	else if(nHeight < 384400){nSubsidy = 10000 * COIN;}
+Blocks  1-100,000: 150,000
+Blocks  100,001-200,000: 100,000
+Blocks  200,001-250,000:  75,000
+Blocks 	250,001-300,000: 50,000
+Blocks  300,001-350,000: 30,000
+Blocks 	350,001-375,000:  20,000
+Blocks  375,001-384,400: 10,000
+
+After Block  384,400 it will make 3500 more Blocks at 3,500 Coins each until 33,356,250,000 is reached 
+
 
 Default RPC PORT 35885
 
