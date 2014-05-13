@@ -6,7 +6,7 @@ Scrypt Proof of Work
 
 10 Block Difficulty Retargets
 
-25 Billion Max Coins
+33 Billion Max Coins
 
 Coin Distribution Breakdown:
 
